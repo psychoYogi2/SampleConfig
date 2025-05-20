@@ -1,5 +1,7 @@
 eureka:
   client:
+    instance:
+      hostname: localhost
     fetchRegistry: false
     registerWithEureka: false
     serviceUrl:
